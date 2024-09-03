@@ -19,7 +19,7 @@ class ObatController extends Controller
     {
 
         $book = Obat::create($request->all());
-        return response()->json($book, 201);
+        return response()->json($book, 200);
     }
 
     // Display the specified resource
